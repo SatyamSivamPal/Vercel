@@ -6,10 +6,10 @@ const { Server } = require('socket.io')
 const cors = require('cors')
 
 const ecsClient = new ECSClient({
-    region: 'us-east-1',
+    region: '',
     credentials: {
-        accessKeyId: "AKIAW3MECL4UPELMIGO4",
-        secretAccessKey: "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",
+        accessKeyId: "",
+        secretAccessKey: "",
     }
 })
 
